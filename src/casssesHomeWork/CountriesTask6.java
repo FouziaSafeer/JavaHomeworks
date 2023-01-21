@@ -1,0 +1,34 @@
+package casssesHomeWork;
+
+public class CountriesTask6 {
+    public static void main(String[] args) {
+        //Create 2D array of countries: north america countries,
+        // south america countries, europe countries, asian countries, african countries.
+        // Then print all values from that array using 2 different loops and calculate how many total countries been stored
+            String [][] countries=new String[5][6];
+         String[] northAmerica= {"Canada","Costa Rica","Cuba","Mexico","United states"};
+         String[] southAmerica={"Brazil","Peru","Argentina","Columbia"};
+         String[] europe={"Germany","Italy","France","Serbia","Russia","UK"};
+         String[] asia={"China","Pakistan","India","Japan","Iran"};
+         String[] africa=   {"Nigeria","Egypt","Somalia","Sudan","Madagascar"};
+
+
+         countries[0]=northAmerica;
+         countries[1]=southAmerica;
+         countries[2]=europe;
+         countries[3]=asia;
+         countries[4]=africa;
+
+        int count=0;
+        for (int i = 0; i < countries.length; i++) {
+            for (int j = 0; j < countries[i].length; j++) {
+                count++;
+            }
+        }
+        System.out.println(count);
+            
+        }
+
+
+    }
+
