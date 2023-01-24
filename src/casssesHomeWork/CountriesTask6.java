@@ -26,8 +26,32 @@ public class CountriesTask6 {
             }
         }
         System.out.println(count);
+        
+        
+      //  using enhance loop
+        // Using enhanced for loop
+        for (String[] country : countries) {
+            for (String s : country) {
+                System.out.print(s + " ");count++;
+            }//qweSystem.out.println();*/
+        }
+
+        System.out.println("Total countries "+count);
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
             
         }
+        
+        
 
 
     }
