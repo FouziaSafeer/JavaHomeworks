@@ -38,13 +38,13 @@ public class Task3 {
 
 
             babyName=dadName.substring(0,midOfdadName)+mumName.substring(midOfMumname,endofMumname);
-          babyName=babyName.toUpperCase();
-            System.out.println("Suggested baby name: "+babyName);
+
+            System.out.println("Suggested baby name: "+babyName.toUpperCase());
 
         }else{
             babyName=mumName.substring(0,midOfMumname)+dadName.substring(midOfdadName,endOfdadName);
-            babyName=babyName.toUpperCase();
-            System.out.println("Suggested baby name: "+babyName);
+         
+            System.out.println("Suggested baby name: "+babyName.toUpperCase());
         }
 
 
