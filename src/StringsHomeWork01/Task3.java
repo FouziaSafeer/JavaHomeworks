@@ -26,24 +26,18 @@ public class Task3 {
         System.out.println("Boy or Girl?");
         String babyGender=input.next();
         String babyName;
-        int midOfdadName=dadName.length()/2;
-        int endOfdadName=dadName.length();
-        int midOfMumname=mumName.length()/2;
-        int endofMumname=mumName.length();
 
-       // System.out.println(midOfdadName+" "+endOfdadName);
-        //System.out.println(midOfMumname+ " "+endofMumname);
 
         if(babyGender.equalsIgnoreCase("boy")){
 
 
-            babyName=dadName.substring(0,midOfdadName)+mumName.substring(midOfMumname,endofMumname);
+            babyName=dadName.substring(0,dadName.length()/2)+mumName.substring(mumName.length()/2);
 
             System.out.println("Suggested baby name: "+babyName.toUpperCase());
 
         }else{
-            babyName=mumName.substring(0,midOfMumname)+dadName.substring(midOfdadName,endOfdadName);
-         
+            babyName=mumName.substring(0,mumName.length()/2)+dadName.substring(dadName.length()/2);
+
             System.out.println("Suggested baby name: "+babyName.toUpperCase());
         }
 
