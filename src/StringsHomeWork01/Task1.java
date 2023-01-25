@@ -8,7 +8,7 @@ public class Task1 {
         For Example String str=hello =>l*/
 
         String str="Friends";
-        if(!str.isEmpty()){
+        if(!str.isEmpty()&& str.length()>3){
             //for (int i = 0; i < str.length(); i++) {
            // System.out.println(str.length());
                 int j=str.length()/2;
@@ -16,7 +16,7 @@ public class Task1 {
                 System.out.println(str.substring(j ,j+1));
 
             }else{
-        System.out.println("String is empty");}
+        System.out.println("String is empty or less then three char");}
 
         }
 
