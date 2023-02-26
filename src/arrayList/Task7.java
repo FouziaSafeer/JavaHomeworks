@@ -19,6 +19,7 @@ public class Task7 {
             for (Card l :cards) {
                     l.deposit();
                     l.withdraw();
+                    System.out.println("**********************");
 
             }
 

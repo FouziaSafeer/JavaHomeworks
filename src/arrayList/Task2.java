@@ -13,6 +13,10 @@ public class Task2 {
     cars.add("BMW");
     cars.add("Tesla");
     cars.add("Z4");
+     /*   for (int i = 0; cars.size() > i; i++) {
+            String arg = args[i];
+
+        }*/
     //first methos
         System.out.println(cars);
         System.out.println("____________________");

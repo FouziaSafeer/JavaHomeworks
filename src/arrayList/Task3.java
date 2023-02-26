@@ -16,13 +16,14 @@ public class Task3 {
 
 
 
-
-        for(int i=0; i< makeup.size(); i++)// problem in
+    makeup.removeIf(x->x.endsWith("e"));
+        System.out.println(makeup);
+       /* for(int i=0; i< makeup.size(); i++)// problem in
         {if(makeup.get(i).endsWith("e")){
             makeup.remove(i);
         }
         }  System.out.println(makeup);
-
+*/
 
 
 }}
